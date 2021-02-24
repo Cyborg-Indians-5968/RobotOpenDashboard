@@ -33,10 +33,10 @@ namespace RobotOpenDashboard
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RobotOpenDashboard));
             this.title = new System.Windows.Forms.Label();
-            this.enableButton = new RobotOpenDashboard.NoFocusCueButton();
-            this.disableButton = new RobotOpenDashboard.NoFocusCueButton();
-            this.joystickControlButton = new RobotOpenDashboard.NoFocusCueButton();
-            this.manualControlButton = new RobotOpenDashboard.NoFocusCueButton();
+            this.enableButton = new NoFocusCueButton();
+            this.disableButton = new NoFocusCueButton();
+            this.joystickControlButton = new NoFocusCueButton();
+            this.manualControlButton = new NoFocusCueButton();
             this.instructions = new System.Windows.Forms.Label();
             this.divider = new System.Windows.Forms.Label();
             this.rightMotorControl = new System.Windows.Forms.TrackBar();
