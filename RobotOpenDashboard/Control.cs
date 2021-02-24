@@ -8,7 +8,6 @@ using System.Net;
 using System.Runtime.InteropServices;
 using System.Threading;
 using SharpDX.XInput;
-using RobotOpenProtocol;
 
 namespace RobotOpenDashboard
 {

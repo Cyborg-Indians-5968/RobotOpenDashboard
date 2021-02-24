@@ -33,10 +33,10 @@ namespace RobotOpenDashboard
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RobotOpenDashboard));
             this.title = new System.Windows.Forms.Label();
-            this.enableButton = new NoFocusCueButton();
-            this.disableButton = new NoFocusCueButton();
-            this.joystickControlButton = new NoFocusCueButton();
-            this.manualControlButton = new NoFocusCueButton();
+            this.enableButton = new RobotOpenDashboard.NoFocusCueButton();
+            this.disableButton = new RobotOpenDashboard.NoFocusCueButton();
+            this.joystickControlButton = new RobotOpenDashboard.NoFocusCueButton();
+            this.manualControlButton = new RobotOpenDashboard.NoFocusCueButton();
             this.instructions = new System.Windows.Forms.Label();
             this.divider = new System.Windows.Forms.Label();
             this.rightMotorControl = new System.Windows.Forms.TrackBar();
@@ -111,7 +111,7 @@ namespace RobotOpenDashboard
             this.instructions.ForeColor = System.Drawing.SystemColors.ControlText;
             this.instructions.Location = new System.Drawing.Point(143, 74);
             this.instructions.Name = "instructions";
-            this.instructions.Size = new System.Drawing.Size(627, 144);
+            this.instructions.Size = new System.Drawing.Size(629, 144);
             this.instructions.TabIndex = 5;
             this.instructions.Text = resources.GetString("instructions.Text");
             // 

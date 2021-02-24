@@ -119,9 +119,9 @@
   </resheader>
   <data name="instructions.Text" xml:space="preserve">
     <value>Instructions:
-    -Use the left and right sticks to control the speed of the respective motor.
-    -Press the left or right shoulder button to freeze the speed of that motor.
-    -Press X to invert the left motor and Y to invert the right motor.
+    •Use the left and right sticks to control the speed of the respective motor.
+    •Press the left or right shoulder button to freeze the speed of that motor.
+    •Press X to invert the left motor and Y to invert the right motor.
 
 
 </value>

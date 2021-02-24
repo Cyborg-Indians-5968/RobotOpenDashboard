@@ -47,6 +47,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
@@ -84,6 +85,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Control.cs" />
+    <Compile Include="Joystick.cs" />
+    <Compile Include="PacketId.cs" />
+    <Compile Include="RobotConnection.cs" />
+    <Compile Include="RobotOpenCrc16.cs" />
     <Compile Include="RobotOpenDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,12 +122,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\RobotOpenProtocol\RobotOpenProtocol\RobotOpenProtocol.csproj">
-      <Project>{c8f39527-d18d-4716-8fbe-8f863ef7a8a4}</Project>
-      <Name>RobotOpenProtocol</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
